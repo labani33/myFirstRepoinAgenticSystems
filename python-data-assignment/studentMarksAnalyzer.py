@@ -1,0 +1,15 @@
+marks = [78, 85, 92, 69, 88, 74, 90, 81, 95, 67]
+
+print("Full list of marks:")
+print(marks)
+print("\nFirst 3 marks:")
+print(marks[:3])
+print("\nLast 3 marks:")
+print(marks[-3:])
+highest = max(marks)
+lowest = min(marks)
+average = sum(marks) / len(marks)
+print("\nStatistics:")
+print(f"Highest mark: {highest}")
+print(f"Lowest mark: {lowest}")
+print(f"Average mark: {average:.2f}")
